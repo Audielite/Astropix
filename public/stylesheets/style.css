@@ -1,8 +1,46 @@
 body {
-  padding: 50px;
+  padding: 15px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: radial-gradient(circle, #99ffcc, #00ff00, #0099ff);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
   color: #00B7FF;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#add-favorite-form, #favorite-navigation, #fetch-picture-form {
+  margin: 10px 0 10px 0;
+}
+
+#delete_all, #delete_one{
+  color: red;
+  margin-top: 10px;
+}
+
+#add-favorite-form {
+  margin-bottom: 30px;
+}
+
+.fav-item {
+  padding: 20px 0 20px 0;
+}
+
+.fav-image {
+  width: 200px;
+  border: 2px solid;
+}
+
+.fav-date, .fav-title {
+  padding: 20px;
 }
